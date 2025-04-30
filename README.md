@@ -10,7 +10,8 @@
 6. `requests`
 7. `httpx`
 8. `numpy`
+9. ffmpeg
 
 ## Run
-1. Fill in creds in `tg_test.py`
+1. Fill in creds & ffmpeg paths in `tg_test.py`
 2. `python tg_test.py`

@@ -5,7 +5,7 @@
 1. [faster-whisper](https://github.com/SYSTRAN/faster-whisper)
 2. [silero-vad](https://github.com/snakers4/silero-vad)
 3. `openai`
-4. `torch`
+4. [PyTorch](https://pytorch.org/get-started/locally/)
 5. `python-telegram-bot`
 6. `requests`
 7. `httpx`

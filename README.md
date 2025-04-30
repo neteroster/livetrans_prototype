@@ -8,7 +8,8 @@
 4. `torch`
 5. `python-telegram-bot`
 6. `requests`
-7. `numpy`
+7. `httpx`
+8. `numpy`
 
 ## Run
 1. Fill in creds in `tg_test.py`

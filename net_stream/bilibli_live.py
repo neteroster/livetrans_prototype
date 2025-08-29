@@ -1,7 +1,6 @@
 import asyncio
 import requests
 import numpy as np
-from queue import SimpleQueue
 
 class BilibiliLive:
     def __init__(self, room_id, platform: str = "web", quality: int | None = None, qn: int | None = None, prefer_lowest: bool = True):
@@ -77,7 +76,7 @@ class BilibiliLive:
         else:
             direct_params["qn"] = chosen_qn
         response2 = requests.get(self.stream_play_url, params=direct_params, headers=headers)
-        return response2.json()["data"]["durl"][0]["url"] # TODO: Maybe do durl selection to ensure low bandwidth / low latency
+        return response2.json()["data"]["durl"][0]["url"]
 
     async def spin_ffmpeg(self, ffmpeg_path: str, sampling_rate=16000, samples_per_chunk=512):
         command = [

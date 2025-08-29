@@ -7,6 +7,5 @@ __pycache__/
 .pytest_cache/
 .cache/
 
-# OS
-.DS_Store
-Thumbs.db
+.openhands/
+

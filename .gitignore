@@ -1,0 +1,12 @@
+# Python ignores
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+.pytest_cache/
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
